@@ -17,7 +17,7 @@ model {
     ## priors
     a ~ normal(10, 5);
     b ~ normal(0, 2);
-    sigma ~ uniform(0, 1);
+    sigma ~ uniform(0, 5);
 
     ## posterior
     avg_temp ~ normal(mu, sigma);
